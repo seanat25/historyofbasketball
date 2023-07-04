@@ -211,7 +211,7 @@ button:hover {
   border: 2px solid #f08f4a;
 }
 
-input, label, .dropdown {display: none}
+input, label, .dropdown, hr {display: none}
 
 
 
@@ -232,7 +232,7 @@ input, label, .dropdown {display: none}
     white-space: nowrap;
   }
 
-  #nav, #title, .line, .orange-line2, button, .fact, .naismith-img {display: none}
+  #nav, #title, .line, .orange-line2, button, .fact, .naismith-img, .orange-line {display: none}
 
   input, ul.dropdown {
     display: none;
@@ -277,29 +277,20 @@ input, label, .dropdown {display: none}
     width: 123%;
   }
 
-.orange-line {
-  position: absolute;
-  top: 76%;
-  left: 0;
-  width: 120%;
-  height: 0.5vh;
-}
-
 .banner h1 {
   font-weight: bold;
   font-family: "Baskerville";
   position: absolute;
-  left: 9.6%;
   top: 76%;
   font-size: 5vw;
   text-decoration: none;
   z-index: 2;
+  text-align: center;
 }
 
 .banner p {
   font-family: "Baskerville";
   position: absolute;
-  left: 11.4%;
   top: 82.5%;
   font-size: 3.5vw;
   z-index: 2;
@@ -317,6 +308,15 @@ input, label, .dropdown {display: none}
     left: 6%;
     margin-top: 20%;
     padding-bottom: 5%;
+  }
+
+  hr {
+   border: 2px dashed #f08f4a;
+   position: absolute;
+   top: 70%;
+   z-index: 3;
+   display: block;
+   width: 100%;
   }
 
 button, .fact,  {display: none}
