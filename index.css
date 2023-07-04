@@ -207,8 +207,6 @@ input, label, .dropdown {display: none}
     min-height: 900px;
 }
 
-html {clear: inline-start;}
-
   #carousel-frame {
     overflow: hidden;
     height: 94%;
