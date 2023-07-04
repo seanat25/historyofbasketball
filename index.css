@@ -349,15 +349,17 @@ input, label, .dropdown {display: none}
 
   hr {
     margin-top: -89%;
-    border: 5px dotted #7d7d7d;
+    border: 5px dashed #f08f4a;
   }
 
   .about-image {
     position: absolute;
     left: 8%;
-    top: 106%;
+    top: 108%;
     width: 84%;
     padding-bottom: 25px;
   }
+
+}
 
 }
