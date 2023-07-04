@@ -282,19 +282,21 @@ input, label, .dropdown, hr {display: none}
   font-family: "Baskerville";
   position: absolute;
   top: 76%;
+  left: 6%;
   font-size: 5vw;
   text-decoration: none;
   z-index: 2;
-  text-align: center;
+  text-align: left;
 }
 
 .banner p {
   font-family: "Baskerville";
   position: absolute;
+  left: 6%;
   top: 82.5%;
   font-size: 3.5vw;
   z-index: 2;
-  text-align: center;
+  text-align: left;
 }
 
   .container {
