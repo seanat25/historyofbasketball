@@ -221,6 +221,7 @@ input, label, .dropdown {display: none}
   body {
     overflow-x: hidden;
     position: absolute;
+    min-height: 900px;
 }
 
   .Logo {
@@ -265,8 +266,9 @@ input, label, .dropdown {display: none}
   .banner {
     position: relative;
     height: 52vh;
-    width: 450px;
+    width: 100%;
     margin-top: 0.5%;
+    min-height: 420px;
   }
 
   .banner-img {
