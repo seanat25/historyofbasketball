@@ -233,7 +233,7 @@ button:hover {
   text-align: center;
   font-weight: bold;
   font-size: 1.3vw !important;
-  color: #fffdd1;
+  color: #303030;
 }
 
 input, label, .dropdown {display: none}
