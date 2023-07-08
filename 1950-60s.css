@@ -78,34 +78,6 @@ h1:hover {
   top: 0.7%;
 }
 
-.banner {
-  width: 100%;
-  height: 32vh;
-  background-color: #4f4f4f;
-  position: absolute;
-  left: 0;
-  margin-top: -0.7vh;
-  overflow: hidden;
-}
-
-.banner h1 {
-  font-weight: bold;
-  font-family: "Baskerville";
-  position: absolute;
-  left: 13%;
-  top: 12%;
-  font-size: 2.6vw;
-  text-decoration: none;
-}
-
-.banner p {
-  font-family: "Baskerville";
-  position: absolute;
-  left: 13.8%;
-  top: 32%;
-  font-size: 1.8vw;
-}
-
 @font-face {
   font-family: "1960";
   src: url(Fonts/RetroCoolRegular-rgV2O.ttf);
@@ -179,7 +151,7 @@ h1:hover {
 
 button {
   position: absolute;
-  top: 383%;
+  top: 382%;
   right: 3.1%;
   color: white;
   background-color: transparent;
@@ -318,17 +290,17 @@ input, label, .dropdown {display: none}
     padding-right: 5%;
   }
 
-.flexbox-container {
-  flex-direction: column-reverse;
-  position: relative;
-  top: -74%;
-}
+  .flexbox-container {
+    flex-direction: column-reverse;
+    position: relative;
+    top: -74%;
+  }
 
-.side {
-  margin-top: 3%;
-}
+  .side {
+    margin-top: 3%;
+  }
 
-.container  {
+  .container  {
     width: 86%;
     color: white;
     font-size: 3.3vw;
@@ -338,36 +310,36 @@ input, label, .dropdown {display: none}
     left: 3%;
     margin-top: 1%;
     padding-bottom: 0;
-}
+  }
 
-.image h1 {
-  line-height: 50px;
-  font-size: 15vw;
-  position: absolute;
-  top: 17%;
-}
+  .image h1 {
+    line-height: 50px;
+    font-size: 15vw;
+    position: absolute;
+    top: 4.3%;
+  }
 
-.side div {
-  font-size: 5vw;
-  position: relative;
-  margin-top: 4%;
-}
+  .side div {
+    font-size: 5vw;
+    position: relative;
+    margin-top: 4%;
+  }
 
-.players, .feats {
-  position: relative;
-  left: 5%;
-  border: 4px solid #fe6e00;
-}
+  .players, .feats {
+    position: relative;
+    left: 5%;
+    border: 4px solid #fe6e00;
+  }
 
-.side-images1 img {
-  width: 87%;
-  position: relative;
-  left: 0;
-  margin-top: 0;
-}
+  .side-images1 img {
+    width: 87%;
+    position: relative;
+    left: 0;
+    margin-top: 0;
+  }
 
-.side-images1 {
-  font-size: 5vw !important;
-}
+  .side-images1 {
+    font-size: 5vw !important;
+  }
 
 }
