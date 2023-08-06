@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #303030;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.head {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 5%;
+  background-color: #303030;
+}
+
+.Logo {
+  width: 18%;
+  height: auto;
+  margin-top: -0.2vh;
+  margin-left: 1vw;;
+}
+
+header {
+  height: 45px;
+  margin: 0;
+}
+
+#nav {
+  position: absolute;
+  left: 38%;
+  font-family: "Baskerville";
+  font-size: 0.7vw;
+  color: white;
+  line-height: 40px;
+}
+
+#nav h1{
+  display: inline-block;
+  padding-right: 3vw;
+  padding-bottom: 0;
+  font-weight: 100;
+  vertical-align: top;
+}
+
+.last {
+  padding-right: 10.1vw !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#title {
+  font-size: 1vw;
+  font-family: "Monserrat";
+  position: absolute;
+  left: 24%;
+  margin-top: -2.7%;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+#title h1:hover {
+  text-decoration: none !important;
+}
+
+.line {
+  height: 3.5vh;
+  width: 0.2vw;
+  background-color: white;
+  position: absolute;
+  left: 21.5%;
+  top: 18%;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: -1%;
+}
+
+.side {
+  flex: 30%;
+  background-color: #828282;
+}
+
+.main {
+  flex: 70%;
+  background-color: #303030;
+}
+
+.image {
+  width: 100%;
+  margin-top: -0.7vh;
+  background-image: url(Images/2000.webp);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  opacity: 0;
+}
+
+.image h1 {
+  color: #ffffdd;
+  font-family: "2000";
+  font-size: 14vw;
+  position: absolute;
+  right: 5%;
+  top: 62%;
+  text-decoration: none;
+  text-shadow:
+     0 0 15px #000,
+     6px 6px #ffff00,
+     10px 10px #ff6ec7,
+     14px 14px #add8e6,
+     0 0 100px #000;
+  z-index: 2;
+  rotate: 1 1 1 -8deg;
+}
+
+.banner-text {
+  position: absolute;
+  left: 0;
+  top: 8%;
+  background-color: #fff;
+  width: 20%;
+  font-size: 2.1vw;
+  padding-left: 24px;
+  padding-right: 16px;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  border-top-right-radius: 27px;
+  border-bottom-right-radius: 27px;
+  font-family: "2000";
+  font-weight: bolder;
+  opacity: 0.8;
+  box-shadow:
+     6px 6px #ffff00,
+     12px 12px #ff6ec7,
+     18px 18px #add8e6;
+  color: #303030;
+}
+
+.side div {
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  position: relative;
+}
+
+.side-images img {
+  padding-top: 0%;
+  width: 26.4vw;
+  margin-top: 8%;
+  position: relative;
+  left: -1.4%;
+  border: 4px solid #f08f4a;
+  border-radius: 20px;
+}
+
+.side-images {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3vw !important;
+  color: #303030;
+}
+
+.fact {
+  width: 26.4vw;
+  text-align: justify;
+  color: white;
+  background-color: #4f4f4f;
+  border: 2px solid white;
+  position: relative;
+  left: 1vw;
+  margin-top: 8%;
+  border-radius: 20px;
+}
+
+.fact p {
+  padding: 15px;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  margin-top: -1.8vh;
+}
+
+.fact h2 {
+  padding-left: 15px;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  margin-top: 1vh;
+  color: #f08f4a
+}
+
+@font-face {
+  font-family: "2000";
+  src: url(Fonts/Thorn-4Bn19.ttf);
+}
+
+@font-face {
+  font-family: "2010";
+  src: url(Fonts/OmegleRegular-owopB.ttf);
+}
+
+.container {
+  width: 90%;
+  color: white;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  line-height: 30px;
+  margin-left: 3vw;
+  padding-bottom: 6%;
+  padding-top: 10px;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.players {
+  position: relative;
+  left: 4%;
+  font-family: "Baskerville";
+  font-size: 1.4vw;
+  border: 4px solid #f08f4a;
+  width: 85%;
+  list-style-position: inside;
+  padding-left: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #fffdd1;
+  border-radius: 20px;
+  margin-top: 3vh;
+}
+
+.feats {
+  position: relative;
+  left: 4%;
+  font-family: "Baskerville";
+  font-size: 1.4vw;
+  border: 4px solid #f08f4a;
+  width: 81.4%;
+  padding-left: 2vw;
+  margin-top: 8%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #fffdd1;
+  border-radius: 20px;
+  list-style-position: outside;
+  line-height: 25px;
+}
+
+button {
+  position: absolute;
+  top: 342%;
+  right: 3.1%;
+  color: white;
+  background-color: transparent;
+  font-size: 1.2vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-bottom: 0.8vh;
+  padding-top: 0.6vh;
+  background-color: #4f4f4f;
+  opacity: 0.6;
+  border: 1px solid white;
+}
+
+button:hover {
+  border: 1px dashed white;
+  background-color: #f08f4a;
+  color: #303030;
+  cursor: pointer;
+}
+
+.next {
+  display: flex;
+  width: 100%;
+  height: 18%;
+  position: relative;
+  font-family: "2010";
+  overflow: hidden;
+  -webkit-text-stroke: 0.1px #ffff00;
+  text-shadow: 0 0 5px #ffff00;
+  color: #0000ff;
+  background-image: url(Images/2010.jpg);
+  background-attachment: fixed;
+  background-position: 0 -40vh;
+  background-size: 100% 100%;
+}
+
+.next h1 {
+  position: absolute;
+  font-size: 8vw;
+  top: 15%;
+  left: 21%;
+  text-decoration: none;
+  letter-spacing: 0.5vw;
+}
+
+.next h2 {
+  position: absolute;
+  font-size: 3vw;
+  left: 0.5%;
+  top: 6%;
+}
+
+.next h3 {
+  position: absolute;
+  font-size: 5vw;
+  right: 2%;
+  top: 60%;
+}
+
+input, label, .dropdown {display: none}
+
+
+
+@media screen and (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+    position: absolute;
+    min-height: 900px;
+  }
+
+  .Logo {
+    width: 50%;
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    white-space: nowrap;
+  }
+
+  #nav, #title, button, .line, .banner-text, .next {display: none}
+
+  input, ul.dropdown {
+    display: none;
+    z-index: 2;
+    list-style-type: none;
+  }
+
+  label {
+    position: absolute;
+    top: -1vh;
+    left: 86%;
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 11vw;
+  }
+
+  input:checked~ul.dropdown {
+    display: block;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    padding-left: 47%;
+    z-index: 3;
+  }
+
+  ul.dropdown h1 {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding-right: 5%;
+  }
+
+  .image, .banner-img {
+    background-image: none;
+    opacity: 1;
+  }
+
+  .flexbox-container {
+    flex-direction: column-reverse;
+  }
+
+  .container {
+    width: 91%;
+    color: white;
+    font-size: 3.3vw;
+    font-family: "Baskerville";
+    line-height: 20px;
+    position: relative;
+    left: 2%;
+    margin-top: -1%;
+  }
+
+  .side div {
+    font-size: 5vw;
+    position: relative;
+    margin-top: 4%;
+    padding-left: 5vw;
+  }
+
+  .players, .feats {
+    position: relative;
+    left: 3%;
+    border: 4px solid #f08f4a;
+  }
+
+  .feats {
+    padding-left: 7vw !important;
+  }
+
+  .fact p, .fact h2 {
+    font-size: 4vw;
+  }
+
+  .fact {
+    width: 88%;
+    padding: 0 !important;
+    left: 4vw;
+  }
+
+  .side-images img {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .side-images {
+    font-size: 5vw !important;
+    width: 88%;
+  }
+}

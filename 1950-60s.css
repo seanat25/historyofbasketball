@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #303030;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.head {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 5%;
+  background-color: #303030;
+}
+
+.Logo {
+  width: 18%;
+  height: auto;
+  margin-top: -0.2vh;
+  margin-left: 1vw;;
+}
+
+header {
+  height: 45px;
+  margin: 0;
+}
+
+#nav {
+  position: absolute;
+  left: 39%;
+  font-family: "Baskerville";
+  font-size: 0.7vw;
+  color: white;
+  line-height: 40px;
+}
+
+#nav h1{
+  display: inline-block;
+  padding-right: 3vw;
+  padding-bottom: 0;
+  font-weight: 100;
+  vertical-align: top;
+}
+
+.last {
+  padding-right: 11.2vw !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#title {
+  font-size: 1vw;
+  font-family: "Monserrat";
+  position: absolute;
+  left: 24%;
+  margin-top: -2.7%;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+#title h1:hover {
+  text-decoration: none !important;
+}
+
+.line {
+  height: 3.5vh;
+  width: 0.2vw;
+  background-color: white;
+  position: absolute;
+  left: 21.5%;
+  top: 18%;
+}
+
+@font-face {
+  font-family: "1960";
+  src: url(Fonts/RetroCoolRegular-rgV2O.ttf);
+}
+
+@font-face {
+  font-family: "1970";
+  src: url(Fonts/DiscoDuckHalftoneItalic-VZJZ.otf);
+}
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: -1.7%;
+}
+
+.side {
+  flex: 30%;
+  background-color: #828282;
+}
+
+.main {
+  flex: 70%;
+  background-color: #303030;
+}
+
+.side div {margin-left: 1vw;}
+
+.players {
+  position: relative;
+  left: 2%;
+  font-family: "Baskerville";
+  font-size: 1.4vw;
+  border: 4px solid #f08f4a;
+  width: 85%;
+  list-style-position: inside;
+  padding-left: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #fffdd1;
+  border-radius: 20px;
+  margin-top: 1vh;
+}
+
+.feats {
+  position: relative;
+  left: 2%;
+  font-family: "Baskerville";
+  font-size: 1.4vw;
+  border: 4px solid #f08f4a;
+  width: 81.4%;
+  list-style-position: outside;
+  padding-left: 2vw;
+  margin-top: 8%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background-color: #fffdd1;
+  border-radius: 20px;
+  line-height: 25px;
+}
+
+.container {
+  width: 90%;
+  color: white;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  line-height: 30px;
+  margin-left: 3vw;
+  padding-bottom: 6%;
+  margin-top: 3.8%;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+button {
+  position: absolute;
+  top: 389%;
+  right: 3.1%;
+  color: white;
+  background-color: transparent;
+  font-size: 1.2vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-bottom: 0.8vh;
+  padding-top: 0.6vh;
+  background-color: #4f4f4f;
+  opacity: 0.6;
+  border: 1px solid white;
+}
+
+button:hover {
+  border: 1px dashed white;
+  background-color: #f08f4a;
+  color: #303030 !important;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  margin-top: -0.7vh;
+  background-image: url(Images/1960.png);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  opacity: 0;
+}
+
+.image h1 {
+  color: #fffdd1;
+  font-family: "1960";
+  font-size: 11vw;
+  position: absolute;
+  right: 5%;
+  top: 24%;
+  text-align: right;
+  text-decoration: none;
+  line-height: 130px;
+  text-shadow: 8px 2px #fe6e00;
+  opacity: 0.8;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 8%;
+  background-color: #fffdd1;
+  width: 20%;
+  font-size: 1.6vw;
+  padding-left: 20px !important;
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-family: "Baskerville";
+  font-weight: 600;
+  opacity: 0.8;
+  box-shadow:
+  14px 10px 3px #fe6e00,
+  -14px 10px 3px #fe6e00;
+}
+
+.side div {
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  position: relative;
+  top: 1.5%;
+}
+
+.side-images img {
+  padding-top: 0%;
+  width: 26.4vw;
+  margin-top: 8%;
+  position: relative;
+  left: -1.4%;
+  border: 4px solid #f08f4a;
+  border-radius: 20px;
+}
+
+.side-images {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3vw !important;
+  color: #303030;
+}
+
+.fact {
+  width: 26.4vw;
+  text-align: justify;
+  color: white;
+  background-color: #4f4f4f;
+  border: 2px solid white;
+  left: 0.5vw;
+  margin-top: 6%;
+  border-radius: 20px;
+}
+
+.fact p {
+  padding: 15px;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  margin-top: -1.8vh;
+}
+
+.fact h2 {
+  padding-left: 15px;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  margin-top: 1vh;
+  color: #f08f4a
+}
+
+.next {
+  display: flex;
+  width: 100%;
+  height: 18%;
+  position: relative;
+  font-family: "1970";
+  overflow: hidden;
+  color: #fdb927;
+  -webkit-text-stroke: 0.1px #fffdd1;
+  background-image: url(Images/1970.jpg);
+  background-attachment: fixed;
+  background-position: 0 -45vh;
+  background-size: 100% 100%;
+}
+
+.next h1 {
+  position: absolute;
+  font-size: 8vw;
+  top: 5%;
+  left: 28%;
+  text-decoration: none;
+  letter-spacing: 5vw;
+}
+
+.next h2 {
+  position: absolute;
+  font-size: 3vw;
+  left: 0.5%;
+  top: 2%;
+}
+
+.next h3 {
+  position: absolute;
+  font-size: 5vw;
+  right: 2%;
+  top: 50%;
+}
+
+input, label, .dropdown {display: none}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+    position: absolute;
+    min-height: 900px;
+  }
+
+  .Logo {
+    width: 50%;
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    white-space: nowrap;
+  }
+
+  #nav, #title, button, .line, .banner-text, .next {display: none}
+
+  input, ul.dropdown {
+    display: none;
+    z-index: 2;
+    list-style-type: none;
+  }
+
+  label {
+    position: absolute;
+    top: -1vh;
+    left: 86%;
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 11vw;
+  }
+
+  input:checked~ul.dropdown {
+    display: block;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    padding-left: 47%;
+    z-index: 3;
+  }
+
+  ul.dropdown h1 {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding-right: 5%;
+  }
+
+  .flexbox-container {
+    flex-direction: column-reverse;
+    position: relative;
+    top: 3%;
+  }
+
+  .side {
+    margin-top: 3%;
+  }
+
+  .container {
+    width: 91%;
+    color: white;
+    font-size: 3.3vw;
+    font-family: "Baskerville";
+    line-height: 20px;
+    position: relative;
+    left: 2%;
+    margin-top: -4%;
+  }
+
+  .image, .banner-img {
+    background-image: none;
+    opacity: 1;
+  }
+
+  .image h1 {
+    font-size: 17vw;
+    left: 5%;
+    top: 45%;
+    z-index: 2;
+    line-height: 7vh;
+  }
+
+  .side div {
+    font-size: 5vw;
+    position: relative;
+    margin-top: 4%;
+    padding-left: 5vw;
+  }
+
+  .players, .feats {
+    position: relative;
+    left: 3%;
+    border: 4px solid #f08f4a;
+  }
+
+  .feats {
+    padding-left: 7vw !important;
+  }
+
+  .fact p, .fact h2 {
+    font-size: 4vw;
+  }
+
+  .fact {
+    width: 88%;
+    padding: 0 !important;
+    left: 4vw;
+  }
+
+  .side-images img {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .side-images {
+    font-size: 5vw !important;
+    width: 88%;
+  }
+
+}

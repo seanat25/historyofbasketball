@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #303030;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.head {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 5%;
+  background-color: #303030;
+}
+
+.Logo {
+  width: 18%;
+  height: auto;
+  margin-top: -0.2vh;
+  margin-left: 1vw;;
+}
+
+header {
+  height: 45px;
+  margin: 0;
+}
+
+#nav {
+  position: absolute;
+  left: 39%;
+  font-family: "Baskerville";
+  font-size: 0.7vw;
+  color: white;
+  line-height: 40px;
+}
+
+#nav h1{
+  display: inline-block;
+  padding-right: 3vw;
+  padding-bottom: 0;
+  font-weight: 100;
+  vertical-align: top;
+}
+
+.last {
+  padding-right: 11.2vw !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#title {
+  font-size: 1vw;
+  font-family: "Monserrat";
+  position: absolute;
+  left: 24%;
+  margin-top: -2.7%;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+#title h1:hover {
+  text-decoration: none !important;
+}
+
+.line {
+  height: 3.5vh;
+  width: 0.2vw;
+  background-color: white;
+  position: absolute;
+  left: 21.5%;
+  top: 18%;
+}
+
+.banner {
+  width: 100%;
+  height: 32vh;
+  background-color: #4f4f4f;
+  position: relative;
+  left: 0;
+  margin-top: -0.7vh;
+  overflow: hidden;
+  color: white;
+}
+
+.banner h1 {
+  font-weight: bold;
+  font-family: "Baskerville";
+  position: absolute;
+  left: 13%;
+  top: 12%;
+  font-size: 2.6vw;
+  text-decoration: none;
+}
+
+.banner p {
+  font-family: "Baskerville";
+  position: absolute;
+  left: 13.8%;
+  top: 32%;
+  font-size: 1.8vw;
+}
+
+.banner-img {
+  width: 35%;
+  position: absolute;
+  right: 0%;
+  margin-top: -2.6%;
+}
+
+.orange-line {
+  width: 10vw;
+  height: 49vh;
+  position: absolute;
+  left: 61.2%;
+  margin-top: -2.6%;
+}
+
+.orange-line2 {
+  width: 6vw;
+  height: 34vh;
+  position: absolute;
+  left: 61%;
+  margin-top: 0%;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  margin-top: 0%;
+}
+
+.side {
+  flex: 30%;
+  background-color: #828282;
+}
+
+.main {
+  flex: 70%;
+  background-color: #303030;
+}
+
+.container {
+  width: 90%;
+  color: white;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  line-height: 30px;
+  margin-top: 1%;
+  padding-bottom: 8%;
+  margin-left: 3vw;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+button {
+  position: absolute;
+  top: 269%;
+  right: 3.1%;
+  color: white;
+  background-color: transparent;
+  font-size: 1.2vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-bottom: 0.8vh;
+  padding-top: 0.6vh;
+  background-color: #4f4f4f;
+  opacity: 0.6;
+  border: 1px solid white;
+}
+
+button:hover {
+  border: 1px dashed white;
+  background-color: #f08f4a;
+  cursor: pointer;
+}
+
+.fact {
+  width: 85%;
+  text-align: justify;
+  color: white;
+  background-color: #4f4f4f;
+  border: 2px solid white;
+  margin-left: 1.8vw;
+  margin-top: 6%;
+  border-radius: 20px;
+}
+
+.fact p {
+  padding: 15px;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  margin-top: -1.8vh;
+}
+
+.fact h2 {
+  padding-left: 15px;
+  font-size: 1.5vw;
+  font-family: "Baskerville";
+  margin-top: 1vh;
+  color: #f08f4a
+}
+
+.side-images img {
+  padding-top: 0%;
+  width: 100%;
+  margin-top: 6%;
+  position: relative;
+  border: 4px solid #f08f4a;
+  border-radius: 20px;
+}
+
+.side-images, .side-images1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3vw;
+  color: #303030;
+  width: 85%;
+  margin-left: 1.8vw;
+  font-family: "Baskerville";
+}
+
+.next {
+  display: flex;
+  width: 100%;
+  height: 18%;
+  position: relative;
+  font-family: "1960";
+  overflow: hidden;
+  color: #fff;
+  text-shadow: 5px 2px #f08f4a;
+  background-image: url(Images/1960.png);
+  background-attachment: fixed;
+  background-position: 0 -32vh;
+  background-size: 100% 100%;
+}
+
+.next h1 {
+  position: absolute;
+  font-size: 8vw;
+  top: 5%;
+  left: 24%;
+  text-decoration: none;
+  letter-spacing: 4vw;
+}
+
+.next h2 {
+  position:absolute;
+  font-size: 3.5vw;
+  left: 0.5%;
+  font-family: monospace;
+}
+
+.next h3 {
+  position:absolute;
+  font-size: 5vw;
+  right: 1%;
+  bottom: -15%;
+}
+
+@font-face {
+  font-family: "1960";
+  src: url(Fonts/RetroCoolRegular-rgV2O.ttf);
+}
+
+input, label, .dropdown, hr {display: none}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+    position: absolute;
+    min-height: 900px;
+}
+
+  .Logo {
+    width: 50%;
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    white-space: nowrap;
+  }
+
+  #nav, #title, .line, .orange-line2, button, .orange-line, .next {display: none}
+
+  input, ul.dropdown {
+    display: none;
+    z-index: 2;
+    list-style-type: none;
+  }
+
+  label {
+    position: absolute;
+    top: -1vh;
+    left: 86%;
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 11vw;
+}
+
+  input:checked~ul.dropdown {
+    display: block;
+    text-align: right;
+    white-space: nowrap;
+    position: absolute;
+    padding-left: 47%;
+  }
+
+  ul.dropdown h1 {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding-right: 5%;
+  }
+
+  .banner {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 0.5%;
+    min-height: 460px;
+  }
+
+  .banner-img {
+    position: absolute;
+    top: -3%;
+    width: 123%;
+  }
+
+.banner h1 {
+  font-weight: bold;
+  font-family: "Baskerville";
+  position: absolute;
+  top: 66%;
+  left: 6%;
+  font-size: 5vw;
+  text-decoration: none;
+  z-index: 2;
+  text-align: left;
+}
+
+.banner p {
+  font-family: "Baskerville";
+  position: absolute;
+  left: 6%;
+  top: 72.5%;
+  font-size: 3.5vw;
+  z-index: 2;
+  text-align: left;
+}
+
+  .container {
+    width: 91%;
+    color: white;
+    font-size: 3.3vw;
+    font-family: "Baskerville";
+    line-height: 20px;
+    position: relative;
+    left: 2%;
+    margin-top: 2%;
+  }
+
+  hr {
+   border: 2px dashed #f08f4a;
+   position: absolute;
+   top: 63%;
+   z-index: 3;
+   display: block;
+   width: 100%;
+  }
+
+  .flexbox-container {
+    flex-direction: column-reverse;
+    margin-top: -12%;
+  }
+
+  .side div {
+    position: relative;
+    left: 4%;
+    font-size: 4vw;
+  }
+
+  .fact p, .fact h2 {
+    font-size: 4vw;
+  }
+
+  .fact {margin-bottom: 2%;}
+
+
+}
